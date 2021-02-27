@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <style type="text/css">
+    body
+    {
+        background-image:url('bg4.jpg');
+       background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+  </style>
+</head>
+<body>
+<center>
+	<h2>Enter Uid to get information</h2>
+	<input type="tel" name="uid" id="uid" required="required">
+	<br>
+	<button type="button" onclick="readdata();">Get</button>
+
+</center>
+<center>
+<!-- 	<p>FirstName:<strong id="FirstName"></strong></p><br>
+	<p>LastName:<strong id="LastName"></strong></p><br>
+ -->
+ 	<!-- <p>Address:<strong id="Address"></strong></p><br>
+	<p>Age:<strong id="Age"></strong></p><br> -->
+	<!-- 
+	<p>BloodGroup:<strong id="BloodGroup"></strong></p><br>
+	<p>ContactNumber:<strong id="ContactNumber"></strong></p><br>
+	<p>newcontactRef:<strong id="newcontactRef"></strong></p><br> -->
+	<br><br><br><br><br>
+  <button type="button" onclick="window.location.href='main.html';">HOME</button>
+
+</center>
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLUySl1c6LSYq0rVCPAsXKuLOt7L5ztYs",
+    authDomain: "sign-in-48f1a.firebaseapp.com",
+    databaseURL: "https://sign-in-48f1a.firebaseio.com",
+    projectId: "sign-in-48f1a",
+    storageBucket: "sign-in-48f1a.appspot.com",
+    messagingSenderId: "458378114245",
+    appId: "1:458378114245:web:f8ee3df49b68dbd6a7acac",
+    measurementId: "G-GK60DBRVHM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+	<script type="text/javascript" src="fetch.js"></script>
+
+
+</body>
+</html>

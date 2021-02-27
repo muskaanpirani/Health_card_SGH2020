@@ -1,0 +1,69 @@
+.main
+{
+	height: 470px;
+	width:48%;
+	
+}
+table
+{
+	width: 100%;
+	font-size:18px;
+	font-family: Bahnschrift;
+	background-image:url('bg1.jpg'); 
+	border-radius: 40px;
+}	
+.logo1
+{
+	float:left;
+	height: 100px;
+	width: 100px; 
+	padding-left: 20px;
+	padding-top: 1px;
+}
+
+.title
+{
+	padding-left: 40px;
+	
+	font-family:; 
+	font-size:34px;
+
+}
+.content
+{
+	height: 280px;
+	/*width:100%;*/
+}
+
+/*.td1
+{
+	width:17%;
+}
+*/
+
+.td2
+{
+	width:20%;
+}
+
+.img
+{
+	width: 28%
+}
+.img1
+{
+
+	float:right;
+	width: 150px;
+	height:150px;
+	border-radius: 75px;
+	border: 2px solid white;
+
+}
+
+.motto
+{
+	padding-top: 50px;
+	height:30px;
+	font-size: 18px;
+}

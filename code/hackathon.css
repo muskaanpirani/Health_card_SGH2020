@@ -1,0 +1,247 @@
+
+.container 
+{
+    width: 100%;
+    margin: auto;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom:20px;
+   padding-top:20px;
+   font-family:Segoe Print;
+
+}
+.animate 
+{
+    font-size: 55px;
+   
+   /* border-bottom: 2px solid #ccc;*/
+}
+.animate span 
+{
+    display: inline-block;
+}
+.animate span:nth-of-type(2) {
+    animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+    animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+    animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+    animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+    animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+    animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+    animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+    animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+    animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+    animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+    animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+    animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+    animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+    animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+    animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+    animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+    animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+    animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+    animation-delay: .95s;
+}
+
+
+/* Animation One */
+
+.one span 
+{
+    color: #24a8e6;
+    opacity: 0;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+    animation: revolveScale 2s forwards;
+}
+
+@keyframes revolveScale 
+{
+    60% 
+    {
+        transform: translate(20px, 20px) rotate(30deg) scale(.3);
+    }
+
+    100% 
+    {
+        transform: translate(0) rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.div1
+{
+	border: 2px solid black;
+	border-radius: 50px;
+	background-color: ;
+	margin-right: 120px;
+	margin-left: 120px;
+}
+pre
+{
+	font-family: Bahnschrift;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.div2
+{
+	margin-right: 370px;
+	margin-left: 370px;
+/*	margin-top:10px;
+	margin-bottom: \\:10px;*/
+	border-width: 7px;
+	border-style: double;
+	border-color: #24a8e6;
+	border-radius: 50px;
+	background-color: ;
+}
+
+input[type="checkbox"]
+{
+	width: 200px;
+	height: 20px;
+	text-align: left;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	background-color: #DAE3BB;
+	font-family: Helvetica;
+	font-size: 20pt;
+}
+table
+{
+	font-family: Helvetica;
+	font-size: 20px;
+	/*padding-left: 50px;*/
+}
+.td1
+{
+	text-align: left;
+	width: 40%;
+}
+
+
+input
+{
+	width: 200px;
+	text-align: center;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	background-color: ;
+	font-family: Helvetica;
+	font-size: 20px;
+	transition: width 0.4s ease-in-out;
+}
+textarea
+{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: center;
+}
+select
+{
+	text-align: center;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px;
+	background-color: ;
+	font-family: Helvetica;
+	font-size: 20px;
+	width: 200px;
+	transition: width 0.4s ease-in-out;
+}
+
+
+.submit
+{
+	font-size: 20px;
+	margin-top: 40px;
+	border-radius: 30px;
+	padding: 10px 20px;
+	background-color:red; 
+	color:white;
+}
+
+.submit:hover
+{
+	background-color:black;
+	transition: 0.7s ease;
+}
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("bg5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.contact-form-btn{
+
+	border:0;
+	margin-top:30px; 
+	padding:12px 50px;
+	border-radius: 20px;
+	cursor:pointer;
+	transition: 0.5s;
+	overflow: hidden;
+	font-size: 20px;
+
+}
+/*.contact-form-btn:hover:before{
+	background:red;
+}*/
+.contact-form-btn:hover{
+	transform:scale(1.3);
+	filter: blur(0.2px);
+	background:#24a8e6;
+}
+
+.td2
+{
+	padding-left:40px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prescription Form</title>
+	<link rel="stylesheet" type="text/css" href="Prescrition.css">
+</head>
+<body>
+  <style type="text/css">
+    h1
+    {
+      color:steelblue;
+    }
+    table
+    {
+      border: 2px solid green;
+      border-collapse: collapse;
+      font-family: sans-serif;
+      font-size: 13pt;
+    }
+    td
+    {
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+ 
+ 	<center><div>
+		<h1>Prescription</h1>
+		<textarea rows="30" cols="70" id="t1" value="Enter Prescription"></textarea>
+		<center>
+      <button onclick="window.location.href='main.html';"><b>HOME</b></button></center>
+	</div></center>
+
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLUySl1c6LSYq0rVCPAsXKuLOt7L5ztYs",
+    authDomain: "sign-in-48f1a.firebaseapp.com",
+    databaseURL: "https://sign-in-48f1a.firebaseio.com",
+    projectId: "sign-in-48f1a",
+    storageBucket: "sign-in-48f1a.appspot.com",
+    messagingSenderId: "458378114245",
+    appId: "1:458378114245:web:f8ee3df49b68dbd6a7acac",
+    measurementId: "G-GK60DBRVHM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script type="text/javascript" src="Prescrition.js"></script>
+
+
+
+</body>
+</html>

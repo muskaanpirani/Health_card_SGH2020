@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Form</title>
+	<link rel="stylesheet" type="text/css" href="hackathon.css">
+
+</head>
+<body>
+
+	<form id="Medicalform">
+	
+		<div class="container">
+        <div class="animate one">
+            <span>M</span>
+            <span>E</span>
+            <span>D</span>
+            <span>I</span> 
+            <span>C</span>
+            <span>A</span>
+            <span>L</span>&nbsp;
+            <span>F</span>
+            <span>O</span>
+            <span>R</span>
+            <span>M</span>
+        </div>
+    </div>
+	
+		<br>
+	<pre>-----------P  E  R  S  O  N  A  L     D  E  T  A  I  L  S-----------</pre>
+	<div class="div2">
+	<center>
+		<table>
+				<tr>
+					<td class="td1">First Name:</td>
+					<td><input type="text" name="First Name" placeholder="First Name" required id="FirstName"></td>
+				</tr>
+				<tr>
+					<td class="td1">Last Name:</td>
+					<td><input type="text" name="Last Name" placeholder="Last Name" required id="LastName"></td>
+				</tr>
+				<tr>
+					<td class="td1">Address:</td>
+					<td><textarea rows="5" cols="25" placeholder="Address" class="Address" id="Address"></textarea><!-- 
+						<input type="text" name="Address" placeholder="Address" required id="Address">  --></td>
+				</tr>
+				<tr>
+					<td class="td1">Pincode:</td>
+					<td><input type="tel" name="Pin Code" maxlength="6" required id="Pincode"></td>
+				</tr>
+				<tr>
+					<td class="td1">Contact:</td>
+					<td><input type="tel" name="Contact" maxlength="10" required id="ContactNumber"></td>
+				</tr>
+				<tr>
+					<td class="td1">Gender:</td>
+					<td>
+						<select id="Gender">
+							<option >--</option>
+							<option >Male</option>
+							<option >Female</option>	
+							<option >Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="td1">Age:</td>
+					<td><input type="tel" name="Age" maxlength="3" required id="Age"></td>
+				</tr>
+				<tr>
+					<td class="td1">Blood Group:</td>
+					<td><select id="BloodGroup">
+							<option>--</option>
+							<option>A+</option>
+							<option>B+</option>	
+							<option>AB+</option>
+							<option>AB-</option>
+							<option>O+</option>
+							<option>O-</option>
+						</select>
+				<!-- <input type="text" name="Blood Group" required id="BloodGroup">
+				 --></td>
+			</tr>
+	
+			<tr>
+					<td class="td1">Weight:</td>
+					<td><input type="number" name="Weight" placeholder="kg" maxlength="3" required id="Weight"></td>
+			</tr>
+		
+			<tr>
+					<td class="td1">Height:</td>
+					<td><input type="tel" name="Height" placeholder="cm" maxlength="3" required id="Height"></td>
+			</tr>
+			</table>
+		</center>
+		</div>
+
+
+			<br>
+	<pre>-----------A  B  O  U  T     D  I  S  A  B  I  L  I  T  I  E  S-----------</pre>
+
+
+	<div class="div2">
+		<center><table width="60%">
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox1" id="Hearing"  >Hearing Disability</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox1"  id="Physical" value="Physical Disability" >Physical Disability</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox1" id="Visual" value="Visual Disability">Visual Disability</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" id="Mental" class="checkbox1"  value="Mental Disability">Mental Disability</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox1" value="Intellectual Disability" id="Intellectual" >Intellectual Disability</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox1"  id="Learning" value="Learning Disability">Learning Disability</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox"  class="checkbox1" value="Other Disability" id="Other">Other Disability</td>
+				</tr>
+			</table>
+		</center>
+	</div>
+
+
+	<pre>-------------A  B  O  U  T      A  L  L  E  R  G  I  E  S-------------</pre>
+		<div class="div2"><br>
+
+			<center><table width="60%">
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Drug Allergy" id="Drug">Drug Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Food Allergy" id="Food">Food Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Insect Allergy" id="Insect">Insect Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Latex Allergy" id="Latex">Latex Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Mold Allergy" id="Mold">Mold Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Pet Allergy" id="Pet">Pet Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Pollen Allergy" id="Pollen">Pollen Allergy</td>
+				</tr>
+				<tr>
+					<td class="td2"><input type="checkbox" class="checkbox2" value="Other Allergy" id="other">Other Allergy</td>
+				</tr>
+			</table></center>
+		<br>
+	</div>
+	
+
+		<center>
+			<!-- <a href="javascript:submitform();">submit</a>
+			 --><button onclick="submitform()" class="contact-form-btn"  id="submitbutton">SUBMIT</button>
+			   <button onclick="window.location.href='main.html';" class="contact-form-btn" id="submitbutton">HOME</button>
+			  <button onclick="window.location.href='fbasecard.html';" class="contact-form-btn" id="submitbutton">PreView</button>
+			  
+			   
+
+<!-- 			   <input type="submit" onblur='generateBarCode()'>
+			   <input type="text" name="" value="document.write(newcontactRef.getKey());">
+ -->
+     <!--  <img id='barcode' 
+            src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" 
+            alt=""
+            title="HELLO" 
+            width="50" 
+            height="50" />
+ -->
+			<!--  <button onclick="readdata()" class="contact-form-btn"  id="read">READ</button>
+		 --></center>
+	</form>
+
+
+
+
+
+
+
+
+
+ <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLUySl1c6LSYq0rVCPAsXKuLOt7L5ztYs",
+    authDomain: "sign-in-48f1a.firebaseapp.com",
+    databaseURL: "https://sign-in-48f1a.firebaseio.com",
+    projectId: "sign-in-48f1a",
+    storageBucket: "sign-in-48f1a.appspot.com",
+    messagingSenderId: "458378114245",
+    appId: "1:458378114245:web:f8ee3df49b68dbd6a7acac",
+    measurementId: "G-GK60DBRVHM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script type="text/javascript" src="hackathon.js"></script>
+	
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="mainDiv" align="left">
+	<h1 align="left">Firebase web app</h1>
+	<textarea id="mainText" placeholder="Enter text here"></textarea>
+	<button id="submitBtn" onclick="submitClick()"><i class="fa fa-arrow-right" aria-hidden="true">SUBMIT</i></button>
+	
+  <p id="p1"></p>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase/init.js"></script>
+
+
+ <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAPUwZ3m5ObuVEpeQ90VjrA9GJRCXou1hg",
+    authDomain: "fir-health-card.firebaseapp.com",
+    databaseURL: "https://fir-health-card.firebaseio.com",
+    projectId: "fir-health-card",
+    storageBucket: "fir-health-card.appspot.com",
+    messagingSenderId: "380107252720",
+    appId: "1:380107252720:web:088af386483a5ab4577335",
+    measurementId: "G-VNJQRQDWMJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+<script type="text/javascript" src="del.js"></script>
+</body>
+</html>

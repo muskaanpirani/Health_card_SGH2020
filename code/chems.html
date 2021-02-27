@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unique Id</title>
+  <style type="text/css">
+    body{
+          background-image:url('bg4.jpg');
+       background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        }
+  </style>
+
+
+
+
+
+
+</head>
+<body>
+    <center>
+    <h1>Enter the patient's Uid for search</h1>
+  <table>
+     <tr>
+      <td><label>Unique Id:</label></td>
+      <td><input type="tel"  name="uid"  id="UniqueId"></td>
+   </tr>
+
+     <br><tr><!-- <td><button onclick="readdata();">View Details</button>
+   </td> -->
+    <td><button onclick="pre();">Prescription</button>
+   </td></tr>
+</table>
+<div id="showfirstname"></div>
+</center>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLUySl1c6LSYq0rVCPAsXKuLOt7L5ztYs",
+    authDomain: "sign-in-48f1a.firebaseapp.com",
+    databaseURL: "https://sign-in-48f1a.firebaseio.com",
+    projectId: "sign-in-48f1a",
+    storageBucket: "sign-in-48f1a.appspot.com",
+    messagingSenderId: "458378114245",
+    appId: "1:458378114245:web:f8ee3df49b68dbd6a7acac",
+    measurementId: "G-GK60DBRVHM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+/*  firebase.analytics();*/
+</script>
+
+  <script type="text/javascript" src="chems.js"></script>
+<!--  <script type="text/javascript" src="prescription.js"></script>
+ -->
+
+</body>
+</html>
